@@ -8,6 +8,7 @@ put the multiplayer folder into .../Noita/mods
 enable unsafe mods in the mod menu
 activate and preferably put this mod high in the mod order
 in the vanilla control pannel, map the "select item in slot X" to something unused (there is problematic hardcoded functionnality to it) and set "Pause the game when unfocused" to disabled.
+play in 1920/1080 resolution.
 check mod settings to make sure it's what you want. Polymorphine can still break the mod in some particular situations and can be disabled for players if wanted. Experimental zoom out options can be useful for splitscreen but can increase lag.
 
 To control the players:
