@@ -1,0 +1,36 @@
+{
+    "server_address": "127.0.0.1",
+    "server_port": 25565,
+
+    "player_id": 2,
+
+    "keyboard_id": 2,
+    "mouse_id":2,
+    
+    "invert_scroll": false,
+    "controls": {
+        "Space": ["fly"],
+        "W": ["fly"],
+        "Z": ["fly"],
+
+        "S": ["down"],
+
+        "Q": ["left"],
+        "A": ["left"],
+        
+        "D": ["right"],
+
+        "LeftButton": ["use_wand","spray_flask"],
+
+        "RightButton": ["throw"],
+
+        "F": ["kick"],
+        "ExtraButton1": ["kick"],
+
+        "I": ["inventory"],
+        "Tab": ["inventory"],
+
+        "E": ["interact"],
+        "ExtraButton2": ["interact"]
+    }
+}

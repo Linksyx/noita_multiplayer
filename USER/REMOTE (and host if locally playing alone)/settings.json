@@ -1,0 +1,24 @@
+{
+    "server_address": "localhost",
+    "server_port": 25565,
+    "player_id": 1,
+    "sending_sleep": 0.005,
+    "invert_scroll": false,
+    "controls": {
+        "keyboard.Key.space": ["fly"],
+        "w": ["fly"],
+        "z": ["fly"],
+
+        "s": ["down"],
+        "q": ["left"],
+
+        "a": ["left"],
+        "d": ["right"],
+        "mouse.Button.left": ["use_wand","spray_flask"],
+        "mouse.Button.right": ["throw"],
+        "f": ["kick"],
+        "i": ["inventory"],
+        "keyboard.Key.tab": ["inventory"],
+        "e": ["interact"]
+    }
+}
