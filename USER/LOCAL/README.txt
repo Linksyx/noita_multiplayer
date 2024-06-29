@@ -6,7 +6,7 @@ The local send_inputs.exe is only for Windows for now. The REMOTE script can be 
 
 For each player you can copy the player_copiable, player1 or player2 folder and make a unique settings.json in each of them to set personnalised controls and controlled player number.
 The only important files for you in the player folders are settings.json and send_inputs.exe.
-You'll have to setup a settings.json and open a send_inputs.exe for each player.
+You'll have to setup a settings.json and open a MouseInputs.exe (or send_inputs.exe, they're the same) for each player.
 
 -- For connection settings:
 If playing locally keep the default ip address ("localhost" won't work it has to be "127.0.0.1"). For remote players you can set it to the host's public IPv4 address.
