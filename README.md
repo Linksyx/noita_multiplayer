@@ -8,13 +8,13 @@ put the multiplayer folder into .../Noita/mods
 enable unsafe mods in the mod menu
 activate and preferably put this mod high in the mod order
 in the vanilla control pannel, map the "select item in slot X" to something unused (there is problematic hardcoded functionnality to it) and set "Pause the game when unfocused" to disabled.
-check mod settings to make sure it's what you want. 
+check mod settings to make sure it's what you want. Polymorphine can still break the mod in some particular situations and can be disabled for players if wanted. Experimental zoom out options can be useful for splitscreen but can increase lag.
 
 To control the players:
 Details are available in USER/LOCAL and USER/REMOTE folders but for a TLDR:
 settings.json have to be modified the enter the player id, player controls and the ip/port to use. The syntax of this file depends on wether you are in REMOTE or LOCAL, and is explained in the associated README.
 If there is at least one remote player who is not on LAN, you have to open the port you decide to use for UDP (default being 25565).
-If you are a remote player, you need to put the local ipv4 (192.xxxx available with "ipconfi" in the cmd) of the host in settings if you are on LAN and the public one if you are not on LAN (most cases).
+If you are a remote player, you need to put the local ipv4 (192.xxxx available with "ipconfig" in the cmd) of the host in settings if you are on LAN and the public one if you are not on LAN (most cases).
 If, on one computer, you are playing alone use the script in REMOTE (even for the host).
 If, on one computer, you are several players, use the script in local (for both the host or even a remote player if you like strange setups).
 
