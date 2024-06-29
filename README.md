@@ -21,5 +21,8 @@ If, on one computer, you are several players, use the script in local (for both 
 I know the names are confusing, and I am open to suggestions to make them clearer.
 The general idea is that in REMOTE the script used is simple and returns the inputs from all devices combined and the mouse position while the script in LOCAL uses the PluralInput API which allows to differentiate inputs from different devices on the same computer, but returns mouse movements and not the position, making it unprecise.
 
+On windows, for Parsec, use build 150-95 or above if available or use the portable (not installed one) instead if not.
+On Linux, there is no script yet in LOCAL but you can still use the python script directly in REMOTE/before_compile (requires putting a settings.json next to it).
+
 Notes:
 The inventory is currently bugged. For 2 players, if they overlap throw a wand on the ground and grab it back. For more, there is no fix. For now, the host has to do most of the inventory work including choosing grabbed wands slots and wand tinkering. For skins, they are not implemented yet but there is an important chance that existing skin mods will affect only player 1 or affect only partially other players, making them useful for differentiation at 2 players on shared screen mod. If there is a lot of corruption (ex: Holy Mountains not spawning) you should disable the experimental zoom out options in mod options or lower the number of players or try to fix it in the mod yourself by touching at the STREAMING_CHUNK_TARGET (default 12) magic number (edit the existing code that's modifying it on the go).
